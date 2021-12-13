@@ -12,8 +12,6 @@ public class TesteDescontos {
 		Orcamento segundo = new Orcamento(new BigDecimal("1000"), 1);
 		
 		CalculadoraDeDescontos calculadora = new CalculadoraDeDescontos();
-		System.out.println(calculadora.calcular(primeiro));
-		System.out.println(calculadora.calcular(segundo));
 	}
 
 }
